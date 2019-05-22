@@ -1,0 +1,912 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.content-wrapper {
+    margin: 0 auto !important;
+    max-width: 932px;
+}
+    /* Set padding to keep content from hitting the edges */
+    .body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100% !important;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.body-topPadding {
+    padding-top: 20px !important;
+}
+
+.navbar-bg {
+    background-color: darkgrey;
+    margin-left: 100px !important;    
+}
+
+.navbar-toggle-bg {
+    /*background-color: darkgrey !important;*/
+    color:black !important;
+}
+
+.navbar-brand-font
+{
+    font-size: 26px !important;
+    font-weight: bold !important;
+}
+
+.icon-bar {
+    background-color: black !important;
+}
+
+.custom-navbar .fa {
+    font-size: 25px
+}
+
+.navbar-right {
+    padding-right: 10px !important;
+    font-weight: bold;
+}
+
+.left-img{
+    max-width: 100% !important;
+}
+
+.navbar
+{
+    min-height:30px !important;
+}
+
+.medicare-top-navbar {
+    height: 50px;
+    width: 150px;
+    margin-right: 20px !important;
+    margin-left:12px !important;
+}
+
+.quick-plan-top-navbar {
+    width: 255px;
+    height: 50px;
+    padding-left: 10px !important;
+}
+
+
+/*@media (max-width:767px) {
+    .custom-navbar .navbar-right {
+        float: right;
+        
+    }
+
+    .custom-navbar .nav.navbar-nav.navbar-right li {
+        float: right;
+    }
+
+        .custom-navbar .nav.navbar-nav.navbar-right li > a {
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+
+    .custom-navbar .navbar-toggle {
+        float: right
+    }
+
+    .custom-navbar .navbar-header {
+        float: right;
+        width: auto !important;
+    }
+
+    .custom-navbar .navbar-collapse {
+        clear: both;
+        float: none;
+    }
+    .navbar-right {
+        float: left !important;
+    }
+}*/
+
+.jumbotron {    
+    margin-bottom: 0px !important;
+}
+
+.left-mar
+{
+    padding-left:0px !important;
+}
+
+.left-padding-0px {
+    padding-left: 0px !important;
+}
+
+.h2-mar-left
+{
+    margin-left:5px !important;
+}
+
+.h3-content
+{
+    font-size:20px !important;
+    margin-top:11.5px !important;
+}
+
+.center-block p
+{
+    padding-top:6pt !important;
+}
+.top-pd-15px
+{
+    padding-top:15px !important;
+}
+.top-pd-12pt {
+    padding-top: 12pt !important;
+}
+.top-left-pd {
+    padding-top: 9pt !important;
+    padding-left:7px !important;
+}
+.left-pad-9px {
+    padding-left: 9px !important;
+}
+.bottom-pad-37px {
+    padding-bottom: 37px !important;
+}
+.bottom-pad-34px {
+    padding-bottom: 34px !important;
+}
+.margin-top-33px{
+    margin-top:33px;
+}
+
+.margin-top-38px {
+    margin-top: 38px;
+}
+
+.margin-bottom-34px {
+    margin-bottom: 34px;
+}
+
+.margin-bottom-19px {
+    margin-bottom: 19px;
+}
+.margin-bottom-29px {
+    margin-bottom: 29px;
+}
+.padding-top-37px {
+    padding-top: 37px;
+}
+.display-block{
+    display:block !important;
+}
+.margin-top-23px {
+    padding-top: 23px !important;
+    padding-left: 7px !important;
+}
+.bottom-pad-10px {
+    padding-bottom: 10px !important;
+}
+.margin-top-bottom-table {
+    margin-top: 11px !important;
+    margin-bottom: 27px !important;
+    font-size:12px !important;
+}
+
+    .margin-top-bottom-table > thead > tr > th {
+        padding: 7px !important;
+    }
+.bottom-pad-7px {
+    padding-bottom: 7px !important;
+}
+sup {
+    position: relative;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -0.3em;
+}
+
+.medicare-ul-content {
+    font-size: 12px !important;
+}
+
+.footer-hr
+{
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+}
+.left-pad-19px {
+    padding-left: 19px !important;
+}
+
+.compareTable td, th 
+{
+    height:68px !important;
+}
+
+.compareTable td {
+    vertical-align:middle !important;
+}
+
+.strip-content {
+    padding-left: 178px;
+}
+
+.strip-content h4{
+    font-weight: 600 !important;
+}
+
+.strip-button {
+    padding-left: 16px !important;
+    /*margin-left: 39px;*/
+    font-size:12px !important;
+}
+.jumbotron-pd43 {
+    padding-top: 43px !important;
+}
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 35px !important;
+        padding-bottom: 48px;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .jumbotron-bg {
+        margin-left: 120px !important;
+        margin-right: 60px !important;
+    }
+
+    .centered-pd {
+        padding-left: 46px !important;
+        padding-top: 26px !important;
+    }
+
+    .centered-btn-pd {
+        padding-left: 40px !important;
+    }
+
+    .left-content {
+        text-align: left !important;
+    }
+
+    .left-btn-content {
+        text-align: left !important;
+        padding-left: 40px !important;
+    }
+
+    .right-content {
+        text-align: right !important;
+    }
+
+    .jumbotron-pd {
+        margin-left: 16% !important;
+        margin-right: 10% !important;
+        text-align: left;
+    }
+
+    .navbar a img {
+        padding-left: 99px !important;
+    }
+
+    .left-mar {
+        margin-left: 15px !important;
+    }
+
+    .pading-41px {
+        padding-top: 41px !important;
+    }
+
+    .top-pading-48px {
+        padding-top: 48px !important;
+    }
+
+    .row-margin-top {
+        margin-top: 5px !important;
+    }
+
+    .hr-margin-bottom {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding-left: 10px !important;
+    }
+
+    .container {
+        padding-left: 0px !important;
+    }
+
+    .navbar a img {
+        padding-left: 0px !important;
+        /*min-width: 197px;*/
+        /*min-height: 38px;*/
+    }
+
+    .navbar-right {
+        padding-right: 0px !important;
+    }
+    /*.jumbotron-bg {
+        margin-left: 60px !important;
+    }*/
+    .right-content {
+        text-align: left !important;
+    }
+
+    .col-md-5 {
+        width: 100% !important;
+    }
+
+    .strip-content {
+        margin-left: 0px !important;
+        padding-left: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .jumbotron {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .jumbotron-pd {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: left;
+        padding-right: 7% !important;
+        padding-left: 7% !important;
+    }
+    .screen-margin-left-right {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .row-left {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .col-md-4, .col-md-8 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .img-width {
+        width:100% !important;
+        max-width: 298px !important;
+    }
+    .left-pad-19px
+    {
+        padding-left:0px !important;
+    }
+    .spacing-left-right {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: left;
+        padding-right: 7% !important;
+        padding-left: 7% !important;
+    }
+    .medicare-top-navbar {
+        height: 50px;
+        width: 150px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .nav > li > a
+    {
+        padding:10px 5px !important;
+    }
+    .strip-content {
+        padding-left: 73px;
+    }
+
+    .strip-button {
+        padding-left: 20px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+    .jumbotron {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .jumbotron-pd {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: left;
+        padding-right: 7% !important;
+        padding-left: 7% !important;
+    }
+
+    .screen-margin-left-right {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .row-left {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .col-md-4, .col-md-8 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .img-width {
+        width: 100% !important;
+        max-width: 298px !important;
+    }
+
+    .left-pad-19px {
+        padding-left: 0px !important;
+    }
+
+    .spacing-left-right {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: left;
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+    }
+    .margin-top-23px {
+        padding-top: 23px !important;
+        padding-left: 7px !important;
+    }
+    .strip-content {
+        padding-left: 55px !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .col-md-5 {
+        width: 100% !important;
+    }
+    .row-centered {
+        display: block !important;
+        margin: 20px auto;
+    }
+    .centered {
+        display: block !important;
+        margin: 20px auto;
+    }
+    .centered-pd {
+        padding-top: 20px !important;
+    }
+    .quick-plan-top-navbar {       
+        padding-left: 15px !important;
+    }
+    
+    .margin-top-23px {
+        padding-top: 23px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .content-wrapper {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .jumbotron-bg .center-block p {
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .row-left {
+        margin-left: 0px !important;
+    }
+}
+
+table.table-bordered {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+    table.table-bordered > thead > tr > th {
+        border: 1px solid black;
+    }
+
+    table.table-bordered > tbody > tr > td {
+        border: 1px solid black;
+    }
+
+.compareContent
+{
+    font-weight:normal !important;
+}
+
+.tbl-col-mid{
+    text-align:center !important;
+}
+
+ul {
+    padding-inline-start: 20px !important;
+}
+
+.navbar-bottom-margin {
+    margin-bottom: 10px !important;
+}
+
+.jumbotron-bg {
+    background-color: white; 
+    text-align: center;
+}
+
+.jumbotron-bottom {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.jumbotron-bg-light {
+    background-color: #fbfbfb !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.jumbotron-bg-dark {
+    background-color: #959696;
+    color: white;
+    border-radius: 0 !important;
+    padding-top: 3.7px !important;
+    padding-bottom: 3.7px !important;
+    margin-bottom: 0px !important;
+}
+.row-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    /*margin-left: 200px !important;
+    margin-right: 60px !important;*/
+}
+.jumbotron-bg p, div
+{
+    font-size:13px !important;
+}
+
+
+.jumbotron-pd {
+    text-align: left;
+}
+
+.jumbotron-pd p, div {
+        font-size: 13px !important;
+    }
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.col-center {
+    text-align: center !important;
+}
+
+.info-img
+{
+    width:39px !important;
+}
+
+.mid-row{
+    margin-top:33px;
+}
+
+.row-left {
+    text-align: left;
+}
+.row-left-pd {
+    text-align: left;
+    margin-left: 50px !important;
+}
+.row-margin-top {
+    margin-top: 36px !important;
+}
+.li-item-left {
+    text-align: left !important;
+    padding-bottom: 10px !important;
+}
+hr {
+    border: 0.5px solid black !important;
+    margin:7px;
+}
+
+.heading-left {
+    text-align: left !important;
+    /*padding-left: 10px !important;*/
+    font-weight:bold;
+    padding-bottom:12px !important;
+}
+
+.btn-default-bg {
+    background-color: black;
+    color: white !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 9px 15px !important;
+    white-space: normal;
+    word-wrap: break-word;
+    min-width:217px;
+    min-height:42px;
+}
+
+#checklist a
+{
+    text-decoration:underline !important;
+}
+
+.centered a:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.btn-default-bg-white {
+    background-color: white;
+    color: black !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 10px 20px !important;
+    font-weight: bold;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.img-trans {
+    opacity: 0.5 !important;
+}
+
+div a {
+    color: black !important;
+}
+
+.footer-pd {
+    text-align: left !important;
+    margin: 41px 10px 0px 10px;
+}
+
+*{
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    margin-bottom:10px;
+}
+
+.slideshow-img {
+    width: 100% !important;
+    height: 335px !important;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    
+    background-color: #f1f1f1;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+   
+    background-color: #f1f1f1;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: #ddd;
+    }
+
+.round {
+    border-radius: 100%;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+
+@media only screen and (width: 320px) {
+    .strip-button {
+        padding-left: 0px;
+        font-size: 12px !important;
+    }
+
+    .row-margin-top {
+        margin-top: 5px !important;
+    }
+    /*.hr-margin-bottom {
+        margin-bottom: 20px;
+    }*/
+}
+
+@media only screen and (width: 360px) {
+    .strip-button {
+        padding-left: 37px !important;
+        font-size: 12px !important;
+    }
+    .row-margin-top {
+        margin-top: 5px !important;
+    }
+     /*.hr-margin-bottom {
+        margin-bottom: 20px;
+    }*/
+}
+
+@media only screen and (width: 375px) {
+    .strip-button {
+        padding-left: 0px;
+        font-size: 12px !important;
+    }
+     .row-margin-top {
+        margin-top: 5px !important;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .strip-content {
+        padding-left: 0px;
+    }
+
+    .strip-button {
+        padding-left: 0px;
+        font-size: 12px !important;
+    }
+    .row-margin-top {
+        margin-top: 5px !important;
+    }
+     .hr-margin-bottom {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* Model - Page Load */
+
+.modal-header p, .info-popover-text {
+    font-size: 1.75rem;
+    color: white;
+}
+
+.modal-content {
+    background-color: #b1b1b1;
+    border-radius: 10px;
+}
+
+.set-margin-bottom p {
+    padding-top: 6.5pt !important;
+    padding-bottom: 0px !important;
+}
+p {
+    padding-top: 9pt;
+    padding-bottom: 9pt;
+}
+
+.modal-body label {
+    color: white;
+    font-size: 1.75rem;
+    text-align: left !important;
+    line-height: 30px;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.modal-inner-content {
+    border: 4px solid #5a5a5a;
+    margin: 0.3em;
+    border-radius: 10px;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: left;
+    font-size: 1.4rem;
+}
